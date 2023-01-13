@@ -654,7 +654,7 @@ task.spawn(function()
             if dummy then
                 td = game:GetService("Workspace").MAP.dummies:FindFirstChild("Training Dummy")
             elseif hiddendummy then
-                td = game:GetService("Workspace").MAP.waterfall1:FindFirstChild("Dummy2")
+                td = game:GetService("Workspace").MAP["5k_dummies"]:FindFirstChild("Dummy2")
             else
                 td = false
             end
