@@ -1,4 +1,5 @@
 local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zxyn0/key/main/ro2j47dhOW209iropws.txt"))()
+print(key)
 local material = loadstring(game:HttpGet("https://pastebin.com/raw/AT1Tj9V8"))()
 local window = material.Load({
     Title = "AS Fucker V0.1 Login",
